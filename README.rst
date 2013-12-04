@@ -187,9 +187,10 @@ the correct syntax in places such as this is:
      (with [f (open "names.txt")]
 	 (sorted (.spilt "," (.replace "\"" "" (.strip (.read f)))))))
 
- However be judicious when using them, do use them when clarity and
- readability improves. Do not construct convoluted hard to understand
- expressions
+
+However be judicious when using them, do use them when clarity and
+readability improves. Do not construct convoluted hard to understand
+expressions
 
 .. code-block:: clj
 
@@ -200,8 +201,8 @@ the correct syntax in places such as this is:
 
 + Dot Notation
 
- The clojure style dot notation is preferred over the direct call of
- the object's method, though both will continue to be supported
+  The clojure style dot notation is preferred over the direct call of
+  the object's method, though both will continue to be supported
 
 .. code-block:: clj
 
